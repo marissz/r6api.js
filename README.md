@@ -89,7 +89,7 @@ let getId = await r6.getId('uplay', 'Daniel.Nt');
 Get username of player from id.
 
 ```js
-let getUsername = await r6.getUsername('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
+let getUsername = await r6.getUsername('uplay', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
 ```
 
 ```js
@@ -109,7 +109,7 @@ let getUsername = await r6.getUsername('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d
 Get level, xp and alpha pack drop chance.
 
 ```js
-let getLevel = await r6.getLevel('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
+let getLevel = await r6.getLevel('uplay', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
 ```
 
 ```js
@@ -163,7 +163,7 @@ const SEASONS = {
 ```
 
 ```js
-let getRank = await r6.getRank('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d6a', { regions: ['emea'] });
+let getRank = await r6.getRank('uplay', '0b95544b-0228-49a7-b338-6d15cfbc3d6a', { regions: ['emea'] });
 ```
 
 ```js
@@ -215,7 +215,7 @@ let getRank = await r6.getRank('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d6a', { r
 Get general stats for player.
 
 ```js
-let getStats = await r6.getStats('pc', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
+let getStats = await r6.getStats('uplay', '0b95544b-0228-49a7-b338-6d15cfbc3d6a');
 ```
 ```js
 [
